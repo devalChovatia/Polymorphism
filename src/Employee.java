@@ -15,16 +15,9 @@ public class Employee extends Person {
         System.out.print(" Department: " + department + " \t\tJob Title: " + jobTitle
                 + " \t\tYear of Hire: " + yearOfHire);
     }
+    public void weeklySalary(){}
 
+    public void healthCareContributions() {}
 
-    public void weeklySalary(){
-    }
-
-
-    public void healthCareContributions() {
-    }
-
-
-    public void vacationDaysEarned() {
-    }
+    public void vacationDaysEarned() {}
 }

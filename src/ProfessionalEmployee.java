@@ -2,7 +2,6 @@ public class ProfessionalEmployee extends Employee {
     private double monthlySalary;
     private int numberOfVacationDays;
 
-
     public ProfessionalEmployee(String name, int ssn, int age, String gender, String address, String phoneNumber, double monthlySalary,
                                 int numberOfVacationDays, String department, String jobTitle, int yearOfHire) {
         super(name, ssn, age, gender, address, phoneNumber, department, jobTitle, yearOfHire);
@@ -14,7 +13,6 @@ public class ProfessionalEmployee extends Employee {
     public void weeklySalary() {
         double weeklySalary = monthlySalary / 4;
         System.out.print(" \t\tWeekly Salary: + " + weeklySalary);
-
     }
 
     @Override

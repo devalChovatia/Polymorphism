@@ -14,8 +14,6 @@ public class Student extends Person {
         System.out.print(" GPA: " + gpa + " \t\tMajor: " + major + " \t\tYear of Graduation: " + yearOfGraduation);
     }
 
-
-
     public int exam(String exam1, String exam2, String exam3) {
         int numOfQuestions;
         int mcQuestions = 20;

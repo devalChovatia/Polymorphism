@@ -20,7 +20,4 @@ public abstract class Person {
         System.out.println("\n\n Name: " + name + " \t\tSSN: " + ssn + " \t\tAge: " + age +
                 " \t\tGender: " + gender + " \t\tAddress: " + address + " \t\tPhone Number: " + phoneNumber);
     }
-
-
-
 }
