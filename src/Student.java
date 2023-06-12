@@ -11,7 +11,7 @@ public class Student extends Person {
     }
 
     public void displayStudent() {
-        System.out.println(" GPA: " + gpa + " \t\tMajor: " + major + " \t\tYear of Graduation: " + yearOfGraduation);
+        System.out.print(" GPA: " + gpa + " \t\tMajor: " + major + " \t\tYear of Graduation: " + yearOfGraduation);
     }
 
 
@@ -20,7 +20,7 @@ public class Student extends Person {
         int numOfQuestions;
         int mcQuestions = 20;
         numOfQuestions = 3 * mcQuestions;
-        System.out.println("The number of questions: " + numOfQuestions);
+        System.out.print("\t\t The number of questions: " + numOfQuestions);
         return numOfQuestions;
     }
 
@@ -28,7 +28,7 @@ public class Student extends Person {
         int numOfQuestions;
         int mcQuestions = 20;
         numOfQuestions = 2 * mcQuestions;
-        System.out.println("The number of questions: " + numOfQuestions);
+        System.out.print("\t\t The number of questions: " + numOfQuestions);
         return numOfQuestions;
     }
 }

@@ -12,7 +12,7 @@ public class Main {
         Person salariedEmployee = new SalariedEmployee("Sandy", 95467490, 47, "Female", "9210 Underwater rd",
                 "9057216723", 100800, "Water", "Water Drinker", 2017);
 
-        Employee professionalEmploye = new ProfessionalEmployee("Patrick Star", 73674634, 44, "Male", "43 Pumpkin Avenue",
+        Employee professionalEmployee = new ProfessionalEmployee("Patrick Star", 73674634, 44, "Male", "43 Pumpkin Avenue",
                 "6478937938", 10800, 30, "Arts", "Chef", 1999);
 
         Employee nonprofessionalEmployee = new NonProfessionalEmployee("Sarah Monroe", 83723711, 23, "Female", "9023 McMurphy Ave.",
@@ -22,7 +22,7 @@ public class Main {
         people[0] = student;
         people[1] = hourlyEmployee;
         people[2] = salariedEmployee;
-        people[3] = professionalEmploye;
+        people[3] = professionalEmployee;
         people[4] = nonprofessionalEmployee;
 
         for (int i = 0; i < 5; i++) {
